@@ -1,0 +1,259 @@
+$cy:yellow;
+$cb:black;
+$cw:white;
+$co:orange;
+$cd:DodgerBlue;
+$cbl:blue;
+$cg:gray;
+$cdg:DarkSlateGray;
+$cl:LightGray;
+$abs:absolute;
+
+@mixin pos{
+  position:$abs;
+}
+
+@mixin bottom{
+  border-bottom-right-radius:50px;
+  border-bottom-left-radius:50px;
+}
+
+@mixin top{
+  border-top-right-radius: 50px;
+  border-top-left-radius: 50px;
+}
+
+body{
+  background: $cy;
+}
+
+.box{
+  position: relative;
+  margin: auto;
+  display: block;
+  margin-top: 8%;
+  width: 600px;
+  height: 420px;
+  background: none;
+
+.clock{
+  @include pos;
+  top:16.5%;
+  left: 25%;
+  width: 50%;
+  height: 67%;
+  background:$cd ;
+  border-radius: 50%;
+
+
+.in1{
+  @include pos;
+  top:8.2%;
+  left: 6.6%;
+  width: 85%;
+  height: 85%;
+  border-radius: 50%;
+  background:$cb;
+}
+
+.in2{
+  @include pos;
+  top:10.9%;
+  left: 9.8%;
+  width: 77%;
+  height: 77%;
+  border-radius: 50%;
+  background:$cw;
+  border:3px solid $cbl;
+ 
+}
+
+.b1{
+  @include pos;
+  top:12.9%;
+  left: 45.8%;
+  width: 10%;
+  height: 10%;
+  border-radius: 50%;
+  background:$co;
+  box-shadow: 0 5px 10px $cdg;
+  
+}
+
+.b2{
+  @include pos;
+  top:45.9%;
+  left: 75.8%;
+  width: 10%;
+  height: 10%;
+  border-radius: 50%;
+  background:$co;
+  box-shadow: 0 5px 10px $cdg;
+}
+
+.b3{
+  @include pos;
+   top:45.9%;
+  left: 10.9%;
+  width: 10%;
+  height: 10%;
+  border-radius: 50%;
+  background:$co;
+ box-shadow: 0 5px 10px $cdg;
+}
+
+.b4{
+  @include pos;
+  top:77%;
+  left: 45.8%;
+  width: 10%;
+  height: 10%;
+  border-radius: 50%;
+  background:$co;
+   box-shadow: 0 5px 10px $cdg;
+}
+}
+
+.ear1{
+  @include pos;
+  top:85px;
+  left:390px;
+  background: $cd;
+  width:100px;
+  height:40px;
+    transform:translate(45%);
+  transform:rotate(45deg);
+  @include top;
+z-index:-1;
+}
+
+.ear2{
+  @include pos;
+   top:70px;
+  left:125px;
+  background:$cd;
+  width:100px;
+  height:40px;
+    transform:translate(45%);
+  transform:rotate(-45deg);
+  @include top;
+  z-index:-1;
+}
+
+
+.up1{
+  @include pos;
+  top:75px;
+  left:175px;
+  width: 5%;
+  height: 15%;
+  background: $cw;
+  transform:translate(45%);
+  transform:rotate(-45deg);
+  box-shadow: 0 4px 4px $cb;
+  z-index:-11; 
+}
+
+.up2{
+  @include pos;
+ top:85px;
+  left:410px;
+  width: 5%;
+  height: 15%;
+  background: $cw;
+  transform:translate(45%);
+  transform:rotate(45deg);
+  box-shadow: 0 4px 4px $cb;
+  z-index:-11; 
+}
+
+.leg1{
+  @include pos;
+  top:320px;
+  left:370px;
+  width: 2.5%;
+  height: 15%;
+  background: $cw;
+  transform:translate(45%);
+  transform:rotate(-45deg);
+  @include bottom;
+ box-shadow: 0 -30px 9px $cg;
+  z-index:-1;
+}
+
+.leg2{
+  @include pos;
+  top:320px;
+  left:200px;
+  width: 2.5%;
+  height: 15%;
+  background: $cw;
+  transform:translate(45%);
+  transform:rotate(45deg);
+  @include bottom;
+ box-shadow: 0 -30px 9px $cg;
+  z-index:-1;
+ 
+}
+
+.centerb{
+  @include pos;
+ margin:auto;
+  border-radius: 90%;
+  z-index: 9;
+  top:190px; 
+  left:270px;
+  width:7%;
+  height:8%;
+  background-color:$cw;
+  border:3px solid $co;
+}
+
+.l1{
+  @include pos;
+  top:210px;
+  left:255px;
+  width: 1%;
+  height: 14%;
+  background: $co;
+  transform:translate(45%);
+  transform:rotate(50deg);
+  @include bottom;
+ box-shadow: 0 -30px 9px $cg;
+}
+
+.l2{
+  
+  @include pos;
+  top:175px;
+  left:315px;
+  width: 2.4%;
+  height:22%;
+  background: $co;
+  transform:translate(45%);
+  transform:rotate(-67deg);
+  @include bottom;
+ box-shadow: 0 -9px 9px $cl;
+
+  z-index:3;
+}
+
+
+.l3{
+  
+  @include pos;
+  top:126px;
+  left:265px;
+  width: 2.5%;
+  height:26%;
+  background: $co;
+  transform:translate(45%);
+  transform:rotate(142deg);
+  @include bottom;
+box-shadow: 0 -9px 9px $cl;
+  z-index:1;
+}
+}
+
+
+

@@ -1,0 +1,193 @@
+body {
+  background: yellow; }
+
+.box {
+  position: relative;
+  margin: auto;
+  display: block;
+  margin-top: 8%;
+  width: 600px;
+  height: 420px;
+  background: none; }
+  .box .clock {
+    position: absolute;
+    top: 16.5%;
+    left: 25%;
+    width: 50%;
+    height: 67%;
+    background: DodgerBlue;
+    border-radius: 50%; }
+    .box .clock .in1 {
+      position: absolute;
+      top: 8.2%;
+      left: 6.6%;
+      width: 85%;
+      height: 85%;
+      border-radius: 50%;
+      background: black; }
+    .box .clock .in2 {
+      position: absolute;
+      top: 10.9%;
+      left: 9.8%;
+      width: 77%;
+      height: 77%;
+      border-radius: 50%;
+      background: white;
+      border: 3px solid blue; }
+    .box .clock .b1 {
+      position: absolute;
+      top: 12.9%;
+      left: 45.8%;
+      width: 10%;
+      height: 10%;
+      border-radius: 50%;
+      background: orange;
+      box-shadow: 0 5px 10px DarkSlateGray; }
+    .box .clock .b2 {
+      position: absolute;
+      top: 45.9%;
+      left: 75.8%;
+      width: 10%;
+      height: 10%;
+      border-radius: 50%;
+      background: orange;
+      box-shadow: 0 5px 10px DarkSlateGray; }
+    .box .clock .b3 {
+      position: absolute;
+      top: 45.9%;
+      left: 10.9%;
+      width: 10%;
+      height: 10%;
+      border-radius: 50%;
+      background: orange;
+      box-shadow: 0 5px 10px DarkSlateGray; }
+    .box .clock .b4 {
+      position: absolute;
+      top: 77%;
+      left: 45.8%;
+      width: 10%;
+      height: 10%;
+      border-radius: 50%;
+      background: orange;
+      box-shadow: 0 5px 10px DarkSlateGray; }
+  .box .ear1 {
+    position: absolute;
+    top: 85px;
+    left: 390px;
+    background: DodgerBlue;
+    width: 100px;
+    height: 40px;
+    transform: translate(45%);
+    transform: rotate(45deg);
+    border-top-right-radius: 50px;
+    border-top-left-radius: 50px;
+    z-index: -1; }
+  .box .ear2 {
+    position: absolute;
+    top: 70px;
+    left: 125px;
+    background: DodgerBlue;
+    width: 100px;
+    height: 40px;
+    transform: translate(45%);
+    transform: rotate(-45deg);
+    border-top-right-radius: 50px;
+    border-top-left-radius: 50px;
+    z-index: -1; }
+  .box .up1 {
+    position: absolute;
+    top: 75px;
+    left: 175px;
+    width: 5%;
+    height: 15%;
+    background: white;
+    transform: translate(45%);
+    transform: rotate(-45deg);
+    box-shadow: 0 4px 4px black;
+    z-index: -11; }
+  .box .up2 {
+    position: absolute;
+    top: 85px;
+    left: 410px;
+    width: 5%;
+    height: 15%;
+    background: white;
+    transform: translate(45%);
+    transform: rotate(45deg);
+    box-shadow: 0 4px 4px black;
+    z-index: -11; }
+  .box .leg1 {
+    position: absolute;
+    top: 320px;
+    left: 370px;
+    width: 2.5%;
+    height: 15%;
+    background: white;
+    transform: translate(45%);
+    transform: rotate(-45deg);
+    border-bottom-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    box-shadow: 0 -30px 9px gray;
+    z-index: -1; }
+  .box .leg2 {
+    position: absolute;
+    top: 320px;
+    left: 200px;
+    width: 2.5%;
+    height: 15%;
+    background: white;
+    transform: translate(45%);
+    transform: rotate(45deg);
+    border-bottom-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    box-shadow: 0 -30px 9px gray;
+    z-index: -1; }
+  .box .centerb {
+    position: absolute;
+    margin: auto;
+    border-radius: 90%;
+    z-index: 9;
+    top: 190px;
+    left: 270px;
+    width: 7%;
+    height: 8%;
+    background-color: white;
+    border: 3px solid orange; }
+  .box .l1 {
+    position: absolute;
+    top: 210px;
+    left: 255px;
+    width: 1%;
+    height: 14%;
+    background: orange;
+    transform: translate(45%);
+    transform: rotate(50deg);
+    border-bottom-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    box-shadow: 0 -30px 9px gray; }
+  .box .l2 {
+    position: absolute;
+    top: 175px;
+    left: 315px;
+    width: 2.4%;
+    height: 22%;
+    background: orange;
+    transform: translate(45%);
+    transform: rotate(-67deg);
+    border-bottom-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    box-shadow: 0 -9px 9px LightGray;
+    z-index: 3; }
+  .box .l3 {
+    position: absolute;
+    top: 126px;
+    left: 265px;
+    width: 2.5%;
+    height: 26%;
+    background: orange;
+    transform: translate(45%);
+    transform: rotate(142deg);
+    border-bottom-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    box-shadow: 0 -9px 9px LightGray;
+    z-index: 1; }
